@@ -1,0 +1,37 @@
+.club-layout {
+  height: fit-content;
+  height: 200px;
+  width: 230px;
+}
+.club-layout:hover {
+  cursor: default;
+}
+
+.club-image-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.club-image-div:hover {
+  opacity: 0.3;
+}
+
+.small-text {
+  font-size: 14px;
+}
+.club-hover-options {
+  visibility: hidden;
+  color: white;
+  position: relative;
+  top: -58%;
+}
+
+.club-layout:hover .club-hover-options {
+  visibility: visible;
+}
+
+.icon-hover-scale:hover {
+  transform: scale(1.1);
+}

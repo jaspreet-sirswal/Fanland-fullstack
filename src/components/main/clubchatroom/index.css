@@ -1,0 +1,71 @@
+.custom-overflow {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.chat-box {
+  height: 83vh;
+  /* display: inline-block; */
+}
+
+.message-box:hover {
+  background-color: rgb(58, 58, 58);
+}
+.message-box:hover .chat-option {
+  visibility: visible;
+}
+
+.chat-option {
+  background-color: rgb(58, 58, 58);
+  visibility: hidden;
+}
+.container {
+  width: 70vw;
+}
+
+.send {
+  float: right;
+}
+.receive {
+  float: left;
+}
+
+.message-input {
+  background-color: rgb(16, 16, 16);
+  color: aliceblue;
+}
+.message-input:enabled {
+  background-color: rgb(16, 16, 16);
+}
+
+.participants-container {
+  height: 87vh;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  left: -10px;
+  bottom: -12px;
+}
+
+.dot-active {
+  background-color: green;
+}
+.dot-not-active {
+  background-color: orange;
+}
+
+.member-box:hover .member-options {
+  visibility: visible;
+}
+
+.member-options {
+  visibility: hidden;
+}
+
+.highlight-message {
+  border-left: solid yellow 2px;
+}

@@ -1,0 +1,260 @@
+/* ::-webkit-scrollbar {
+    width: 200px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: ;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }  */
+
+.profile-border {
+  border: solid #b3b3b3 2px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  padding: 6px;
+  cursor: pointer;
+  background: linear-gradient(270deg, #3fa1a9, #79f1a4);
+  margin-bottom: 25px;
+}
+
+.club-image-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+  width: auto;
+}
+
+.img-wrap {
+  /* position: relative; */
+  width: 200px;
+  height: 250px;
+  overflow: hidden;
+  /* border-radius: 50%; */
+}
+.clubImg {
+  height: 250px;
+  width: 230px;
+}
+
+.overflow-y {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.img-upload:before {
+  content: "\f093";
+  font-size: 90px;
+  position: absolute;
+  padding-top: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #63d3a6;
+  width: 200px;
+  height: 200px;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+.img-upload:hover:before {
+  opacity: 1;
+}
+/* Padding */
+
+.btn-hover-stop:hover {
+  background-color: white;
+}
+/* Fonts */
+p {
+  margin-bottom: 0;
+}
+p:hover {
+  cursor: default;
+}
+
+.fs-yellow {
+  color: rgb(255, 115, 0);
+}
+
+.fs-primary {
+  color: #b3b3b3;
+  font-size: larger;
+}
+
+.fs-secondary {
+  color: #b3b3b3;
+  font-size: 15px;
+}
+
+.fs-smallest {
+  color: #7a7a7a;
+  font-size: 10px;
+}
+
+.fs-smaller {
+  font-size: smaller;
+}
+
+.fs-small {
+  font-size: 15px;
+}
+
+.fs-medium {
+  font-size: 18px;
+}
+
+.fs-large {
+  font-size: 42px;
+}
+.fs-larger {
+  font-size: 52px;
+}
+
+/* col-1 */
+.link {
+  /* font-size: 22px; */
+  text-decoration: none;
+  color: #b3b3b3;
+}
+.link:hover {
+  color: white;
+  cursor: default;
+}
+
+.tag-navlink-active {
+  border-bottom: solid #1db954 1px;
+}
+
+.link-nav-active {
+  border-left: solid #1db954 2px;
+  color: white;
+}
+.link-active {
+  color: white;
+}
+
+.icon-style {
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.custom-border-top {
+  border-top: solid #535353 1px;
+}
+.custom-border-right {
+  border-right: solid #535353 1px;
+}
+.custom-border-bottom {
+  border-bottom: solid #535353 1px;
+}
+/* col-2 */
+.icon-style-2 {
+  color: #535353;
+}
+
+.link-2 {
+  text-decoration: none;
+  color: rgb(223, 219, 219);
+}
+.link-2:hover {
+  text-decoration: underline;
+  color: rgb(223, 219, 219);
+  cursor: default;
+}
+
+.link-hover-underline:hover {
+  text-decoration: underline;
+}
+
+nav {
+  height: 5vh;
+}
+
+.active {
+  background-color: #1db954;
+  color: white;
+}
+.active:hover {
+  transform: scale(1.02);
+  color: white;
+}
+
+.not-active {
+  color: #1db954;
+  border: solid 2px #1db954;
+}
+
+.not-active:hover {
+  color: #1db954;
+}
+
+button {
+  border: none;
+}
+
+button:hover {
+  cursor: default;
+}
+.nav-btn-hover:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.err-mssg {
+  color: red;
+}
+.error-auth {
+  border: solid red;
+}
+
+.scale:hover {
+  transform: scale(1.01);
+}
+
+.container-home {
+  height: 95vh;
+}
+
+.clubs-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-row-gap: 65px;
+}
+.main-container {
+  height: 100vh;
+}
+/* colors */
+.bg-color-primary {
+  background-color: #212121;
+}
+.bg-color-secondary {
+  background-color: rgb(16, 16, 16);
+}
+.bg-color-tertiary {
+  background-color: #303030;
+}
+.bg-color-light {
+  background-color: #b3b3b3;
+}
+.bg-color-green {
+  background-color: #1db954;
+}
+.bg-color-yellow {
+  background-color: yellow;
+}
